@@ -427,7 +427,7 @@ git commit -m "Simulações seguras: Ransomware e Keylogger (educacional)"
 ## Perguntas comuns
 
 - **Posso modificar os scripts para apontar para outros diretórios?**
-  Sim — mas apenas em VMs isoladas e com extremo cuidado. Recomendamos testar primeiro em `safe_tests/`.
+  Sim — mas apenas em VMs isoladas e com extremo cuidado. Recomendo testar primeiro em `safe_tests/`.
 
 - **Posso adicionar envio por e-mail real para testar detecção de DLP/EDR?**
   Se for necessário para um teste autorizado em laboratório, configure uma rede isolada e um servidor de teste; **nunca** envie dados reais para terceiros.
@@ -435,11 +435,4 @@ git commit -m "Simulações seguras: Ransomware e Keylogger (educacional)"
 ---
 
 ## Conclusão
-Este README consolida todo o material necessário para executar as simulações de forma segura e educativa. Se quiser, eu posso:
-
-- Gerar automaticamente os arquivos `.py` no seu workspace (forneço o conteúdo pronto — já está acima).
-- Fornecer uma versão sem dependência `cryptography` (ex.: base64 + XOR) se preferir não instalar pacotes.
-- Gerar exemplos de regras YARA / Snort educativas para detectar padrões simples.
-
-Diga o que prefere que eu faça a seguir: gerar os arquivos prontos para copiar, gerar uma versão sem dependência externa, ou criar regras de detecção.
-
+Este README consolida todo o material necessário para executar as simulações de forma segura e educativa.
